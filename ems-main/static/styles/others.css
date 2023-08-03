@@ -1,0 +1,69 @@
+body {
+  background-image: url("/static/evvm.jpg");
+  background-size: cover;
+}
+
+/* nav {
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(57, 52, 52));
+  justify-content: space-between;
+  padding: 20px 40px;
+} */
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+}
+
+nav li{
+  margin: 0 10px;
+}
+
+nav ul li a{
+  border: none;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: #ffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: darkgray;
+}
+
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 30 px 30px;
+  border-radius: 10px;
+}
+
+.insertform {
+  display: flex; flex-direction: row;
+  padding : 20px 0px;
+  color : rgba(255, 255, 255, 0.881);
+  justify-content: space-between;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,100 @@
+body {
+  background-image: url("/static/evvm.jpg");
+  background-size: cover;
+}
+
+/* nav {
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(57, 52, 52));
+  justify-content: space-between;
+  padding: 20px 40px;
+} */
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+}
+
+nav li{
+  margin: 0 10px;
+}
+
+nav ul li a{
+  border: none;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: #ffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: darkgray;
+}
+
+
+form {
+  background-color: #150d0d9e;
+  width: 40%;
+  margin: auto;
+  padding: 20px 30px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4545a0;
+}
+
+.viewbutton {
+  background-color: #ff0008;
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  text-decoration: solid;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.viewbutton:hover {
+  background-color: #c55e69;
+}
+
+
